@@ -1,0 +1,70 @@
+/* 
+    Created on : Nov 10, 2017, 9:35:17 AM
+    Author     : pp
+*/
+
+
+/*logo im header links positionieren*/
+header img {
+    float:left;
+    height:200px;
+    margin:10px
+}
+
+/*schriftgröße und positionierung auf home-seite*/
+#home {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2em;
+}
+
+/*logo auf "home" seite*/
+#home img {
+    height:300px;
+}
+
+/*hintergrund des headers (grünes muster))*/
+.header-bg
+{
+    background-image: url("bgHeader.jpg");
+    background-repeat: repeat-x;
+    height: 220px;
+    width: 100%;
+}
+
+/*login-bereich rechts positionieren*/
+#login  {
+    position:relative;
+    float:right;
+    margin: 1em;
+    margin-right:5em;
+}
+
+.login-notification {
+    font-weight:bold;
+    background-color: #ffffff;
+}
+
+
+/*abstand content-bereich (von navbar etc) und von footer (bottom))*/
+#content {
+    margin: 2em;
+    margin-bottom: 5em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+  background-color: #efefef;
+}
+
+/* footer bleibt unten */
+html {
+  position: relative;
+  min-height: 100%;
+}
